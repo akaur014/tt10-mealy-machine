@@ -21,3 +21,32 @@ A Mealy machine works by producing outputs that depend on both the current state
 List external hardware used in your project (e.g. PMOD, LED display, etc), if any
 
 NONE
+
+## Pinout
+
+### Inputs
+
+| Pin     | Name |
+|---------|------|
+| ui[0]   | x1   |
+| ui[1]   |      |
+| ui[2]   |      |
+| ui[3]   |      |
+| ui[4]   |      |
+| ui[5]   |      |
+| ui[6]   |      |
+| ui[7]   |      |
+
+### Outputs
+
+| Pin     | Name |
+|---------|------|
+| uo[0]   | y[1] |
+| uo[1]   | y[2] |
+| uo[2]   | y[3] |
+| uo[3]   | z1   |
+| uo[4]   |      |
+| uo[5]   |      |
+| uo[6]   |      |
+| uo[7]   |      |
+
