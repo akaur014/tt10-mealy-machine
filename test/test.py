@@ -25,7 +25,7 @@ async def test_project(dut):
 
     dut._log.info("Test project behavior")
 
-       # Set the input values you want to test
+     # Set the input values you want to test
     dut.rst_n.value = 0
     dut.ui_in[0].value = 0
 
@@ -76,5 +76,3 @@ async def test_project(dut):
 
 In this Python cocotb testbench for Mealy machine, we repeatedly “toggle” ui_in[0] which is input x1 and wait some time between each toggle to test the functionality of the Mealy model in test.py.
 Asserting the output is not required for the test workflow to run. However, it is suggested by Tiny Tapeout that outputs are asserted. Regardless of if the output is asserted or not, the complete waveform can still be viewed, including the respective outputs of the Mealy model design.
-
-
